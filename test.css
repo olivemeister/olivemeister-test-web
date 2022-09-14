@@ -5,6 +5,19 @@ body {
   background-position:fixed;
   margin:0;
 }
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgb(57, 163, 212);
+  border-radius: 10px;
+}
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+body::-webkit-scrollbar-track {
+  background: black;
+}
 
 .second {
   width:536px;
