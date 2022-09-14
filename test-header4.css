@@ -1,0 +1,54 @@
+.main {
+  margin-top:100px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:transparent;
+  height:306px;
+  display:flex;
+  justify-content:center;
+  position: relative;
+}
+
+.first {
+  width:526px;
+  height:306px;
+}
+.slide-container {
+  position: relative;
+  width:306px;
+  height:306px;
+  overflow:hidden;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  
+}
+.image-container {
+  display:flex;
+  transition:transform 0.4s ease-in-out;
+}
+
+.btn {
+  position:absolute;
+  top:47%;
+  color:white;
+  font-size:20px;
+  cursor:pointer;
+  opacity:0.5;
+}
+.btn.prev {
+  left:10px;
+}
+.btn.next {
+  right:10px;
+}
+.btn:hover {
+  opacity:1;
+}
+.truck-div {
+  position:absolute;
+  bottom:-75px;
+}
+.truck {
+  width:600px;
+}
+

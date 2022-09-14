@@ -1,0 +1,17 @@
+#loading {
+  top:0;
+  bottom:0;
+  z-index:1000;
+  position: absolute;
+  background-color:BLACK;
+  height:160vh;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+.carry {
+  position: absolute;
+  top:60px;
+}

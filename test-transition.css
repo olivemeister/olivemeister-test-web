@@ -1,0 +1,39 @@
+
+.header {
+  animation: transitionIn 2s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity:0;
+    height:1px;
+    overflow:hidden;
+  }
+  to {
+    opacity:1;
+    height:65px;
+    overflow:fill;
+  }
+}
+
+.second-div,
+.third-div,
+.fourth-div,
+.main {
+  animation: transitionOut 4s;
+}
+
+@keyframes transitionOut {
+  from {
+    opacity:0;
+   
+  }
+  to {
+    opacity:1;
+  
+  }
+}
+@media (max-width:650px) {
+  .main-box {
+    opacity:0;
+  }

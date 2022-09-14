@@ -1,0 +1,67 @@
+.third-div {
+  height:45px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+  margin-top:40px;
+  text-align: center;
+}
+.button-default:hover {
+  background-color:rgba(42, 207, 207, 1);
+}
+.button-default {
+  background-color: rgba(42, 207, 207, 0.5);
+  text-align: center;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-right:10px;
+  padding-left:10px;
+  width:120px;
+  display:inline-block;
+  border-width:3px;
+  border-color:rgb(42, 207, 207);
+  border-style:solid;
+  transition:0.1s;
+  cursor:pointer;
+}
+
+.button-slanted {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+.button-slanted-content {
+  font-family:Roboto;
+  font-weight:bold;
+  color:white;
+}
+.button-default2:hover {
+  background-color: rgba(32, 241, 95, 1);
+}
+.button-default2 {
+  background-color: rgba(32, 241, 95, 0.5);
+  text-align: center;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-right:10px;
+  padding-left:10px;
+  width:120px;
+  display:inline-block;
+  margin-left:60px;
+  border-width:3px;
+  border-color:rgb(32, 241, 95);
+  border-style:solid;
+  cursor:pointer;
+  transition:0.1s;
+}
+
+.button-slanted2 {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+.button-slanted-content2 {
+  font-family:Roboto;
+  font-weight:bold;
+  color:white;
+}

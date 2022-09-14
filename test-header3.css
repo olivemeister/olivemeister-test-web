@@ -1,0 +1,84 @@
+.fourth-div {
+  display:flex;
+  vertical-align:center;
+  justify-content:center;
+  flex-direction:row;
+  height:52px;
+  background-color:transparent;
+  margin-top:50px;
+ }
+ .logos-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  vertical-align:center;
+  height:52px;
+ }
+ .download:hover {
+  background-color:rgba(77, 15, 77, 1);
+ }
+ .download {
+  font-family:Roboto Condensed;
+  font-weight:bold;
+  color:white;
+  font-size:18px;
+  background-color:rgba(77, 15, 77, 0.6);
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius:25px;
+  width:120px;
+  text-align:center;
+  height:22px;
+  margin-right:10px;
+  cursor:pointer;
+  transition:0.2s;
+ }
+ .windows {
+  width:20px;
+ }
+ .xbox {
+  width:18px;
+ }
+ .playstation {
+  width:26px;
+ }
+ .div-xbox:hover,
+ .div-playstation:hover,
+ .div-windows:hover {
+  opacity:0.7;
+ }
+ .div-windows {
+  background-color:rgba(63, 62, 62, 0.9);
+  padding: 5px 5px 5px 5px;
+  border-radius:30px;
+  width: 20;
+  text-align:center;
+  height:20px;
+  margin-right:10px;
+  cursor:pointer;
+ }
+ .div-xbox {
+  background-color:rgba(63, 62, 62, 0.9);
+  padding: 5px 5px 5px 5px;
+  border-radius:30px;
+  width: 20;
+  text-align:center;
+  height:18.8438px;
+  margin-right:10px;
+  cursor:pointer;
+ }
+ .div-playstation {
+  background-color:rgba(63, 62, 62, 0.9);
+  padding-left:2px;
+  padding-right:2px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-radius:30px;
+  width:26;
+  text-align:center;
+  height:14.0469px;
+  margin-right:10px;
+  cursor:pointer;
+ }

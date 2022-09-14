@@ -1,0 +1,292 @@
+.header {
+  background-color:rgba(0, 0, 0, 0.8);
+  height:65px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  vertical-align:center;
+}
+.extra-left, .extra-right {
+  width:50px;
+  background-color:transparent;
+}
+.leftside {
+  width:340px;
+  background-color:transparent;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  cursor:auto;
+}
+.logo-container {
+  height:56px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.havoc {
+  font-family:Roboto Condensed;
+  font-weight:bold;
+  font-size:20px;
+  color:rgba(255, 255, 255, 0.9);
+  height:56px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding-left:10px;
+  cursor:pointer;
+}
+.logo {
+  width:35px;
+  height:40px;
+  opacity:1;
+}
+.extra-left2, .extra-right2 {
+  width:50px;
+  background-color:transparent;
+}
+.center {
+  width:476px;
+  min-width: none;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+.home,
+.game,
+.topup,
+.news,
+.support {
+  font-family:Kanit;
+  color:rgba(255, 255, 255, 0.9);
+  font-size:18px;
+  font-weight:500;
+  height:65px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  cursor:pointer;
+  position: relative;
+}
+.game,
+.home,
+.topup,
+.news,
+.support {
+  min-width: fit-content;
+  margin-left:7px;
+}
+.home:hover .home-style {
+  opacity:1;
+  width:57px;
+  left:0px;
+  opacity:1;
+}
+.home:hover {
+  color:rgb(126, 200, 250);
+}
+.home-style {
+  position: absolute;
+  width:3px;
+  background-color:rgb(126, 200, 250);
+  height:3px;
+  bottom:0px;
+  left:28px;
+  border-radius:5px;
+  opacity:0;
+  transition:0.4s;
+}
+.game:hover {
+  color:rgb(126, 200, 250);
+}
+.game:hover .game-style {
+  opacity:1;
+  width:87px;
+  left:0px;
+  opacity:1;
+}
+.game-style {
+  position: absolute;
+  width:3px;
+  background-color:rgb(126, 200, 250);
+  height:3px;
+  bottom:0px;
+  left:45px;
+  border-radius:5px;
+  opacity:0;
+  transition:0.4s;
+}
+.topup:hover {
+  color:rgb(126, 200, 250);
+}
+.topup:hover .topup-style {
+  opacity:1;
+  width:70px;
+  left:0px;
+  opacity:1;
+}
+.topup-style {
+  position: absolute;
+  width:3px;
+  background-color:rgb(126, 200, 250);
+  height:3px;
+  bottom:0px;
+  left:30px;
+  border-radius:5px;
+  opacity:0;
+  transition:0.4s;
+}
+.news:hover {
+  color:rgb(126, 200, 250);
+}
+.news:hover .news-style {
+  width:50px;
+  left:0px;
+  opacity:1;
+}
+.news-style {
+  position: absolute;
+  width:3px;
+  background-color:rgb(126, 200, 250);
+  height:3px;
+  bottom:0px;
+  left:25px;
+  border-radius:5px;
+  opacity:0;
+  transition:0.4s;
+}
+.support:hover {
+  color:rgb(126, 200, 250);
+}
+.support:hover .support-style {
+  width:97px;
+  left:0px;
+  opacity:1;
+}
+.support-style {
+  position: absolute;
+  width:3px;
+  background-color:rgb(126, 200, 250);
+  height:3px;
+  bottom:0px;
+  left:47px;
+  border-radius:5px;
+  opacity:0;
+  transition:0.4s;
+}
+.rightside {
+  width:340px;
+  background-color:transparent;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  vertical-align:center;
+}
+.philippines {
+  width:31px;
+}
+.ph-text {
+  font-family:Kanit;
+  font-size:14px;
+  color:white;
+  padding-left:5px;
+  cursor:pointer;
+}
+.ph-all-container {
+  height:56px;
+  width:fit-content;
+  display:flex;
+  flex-direction:row; 
+  justify-content:center;
+  vertical-align:center;
+  position: relative;
+  cursor:pointer;
+}
+.ph-container,
+.ph-text {
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ vertical-align:center;
+ height:65px;
+}
+.country-list {
+  position:absolute;
+  background-color:rgba(0, 0, 0, 0.8);
+  width:190px;
+  height:245px;
+  bottom:-254px;
+  left:0px;
+  opacity:0;
+  pointer-events:none;
+  transition:0.3s;
+}
+.div-country-list:hover,
+.div-country-list-last:hover {
+  background-color:rgba(71, 70, 70, 0.8);
+}
+.div-country-list {
+  width:190px;
+  height:40px;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  display:flex;
+  flex-direction:row;
+  cursor:pointer;
+  transition:0.3s;
+}
+.div-country-list-last {
+  width:190px;
+  height:40px;
+  display:flex;
+  flex-direction:row;
+  cursor:pointer;
+}
+.malaysia,
+.indonesia,
+.singapore,
+.vietnam,
+.thailand,
+.india {
+  width:31px;
+}
+.country-text {
+  font-family:Kanit;
+  font-size:14px;
+  color:white;
+  height:40px;
+  display:flex;
+  flex-direction:column;
+  vertical-align:center;
+  justify-content:center;
+  margin-left:5px;
+}
+.flag-container {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  vertical-align:center;
+  margin-left:10px;
+}
+.ph-all-container:hover .country-list {
+  opacity:1;
+  pointer-events:fill;
+  z-index:100;
+}
+.arrow-container {
+  position:absolute;
+  bottom:5px;
+  left:60px;
+  transition:0.4s;
+}
+.arrow {
+  width:10px;
+}
+.ph-all-container:hover .arrow-container {
+  bottom:-8px;
+}
+.dimension {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration:none;
+  
+}

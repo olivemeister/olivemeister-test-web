@@ -1,0 +1,255 @@
+.main-box {
+  position: relative;
+}
+.box {
+  position: absolute;
+  top:-110px;
+  width:100px;
+  height:125px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:40px;
+  background:#060c21;
+  transition:0.5s;
+}
+.box:hover {
+  height:165px;
+  top:-130px;
+}
+.box .imgBx {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding:10px;
+  box-sizing:border-box;
+}
+.box .imgBx .me {
+  max-width:100%;
+  opacity:0.1;
+  transition:0.5s;
+}
+.box:hover .imgBx .me {
+  opacity:1;
+}
+.box:before {
+  content: '';
+  position:absolute;
+  top:-2px;
+  left:-2px;
+  right:-2px;
+  bottom:-2px;
+  background:#fff;
+  z-index:-1;
+}
+.box:after {
+  content: '';
+  position:absolute;
+  top:-2px;
+  left:-2px;
+  right:-2px;
+  bottom:-2px;
+  background:#fff;
+  z-index:-2;
+  filter:blur(40px);
+}
+.box:before,
+.box:after {
+  background: linear-gradient(235deg,#F6358A,#010615,#00bcd4);
+}
+.box .content {
+  position: absolute;
+  bottom:0;
+  left:10px;
+  right:10px;
+  bottom:6px;
+  height:40px;
+  background: rgba(0, 0, 0, 0.4);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  opacity:0;
+  transition:0.5s;
+}
+.box:hover .content {
+  opacity:1;
+}
+.box .content h2 {
+  padding-left:5px;
+  font-size:10px;
+  color:#fff;
+  font-weight:500;
+  line-height:20px;
+  letter-spacing:1px;
+  font-family:Roboto;
+}
+.box .content h2 span {
+  font-size:8px;
+  color:#fff;
+  font-family:Roboto;
+  font-weight:200;
+  line-height:20px;
+  letter-spacing:2px;
+}
+.main-box:hover .space-board {
+  width:190;
+  opacity:1;
+}
+.space-board:hover .glowing-circle-main {
+  pointer-events:fill;
+}
+.space-board:hover .glowing-circle-main2 {
+  pointer-events:fill;
+}
+.space-board:hover .glowing-circle-main3 {
+  pointer-events:fill;
+}
+.space-board {
+  height:140px;
+  width:5px;
+  position:absolute;
+  background-color:transparent;
+  top:-70px;
+  left:132px;
+  transition:1s;
+  opacity:0;
+}
+
+.glowing-circle-main {
+  position: absolute;
+  bottom:0;
+  left:20px;
+  pointer-events:none;
+  transition:0.2s;
+}
+.glowing-circle-main:hover,
+.glowing-circle-main2:hover,
+.glowing-circle-main3:hover {
+  padding-bottom:10px;
+}
+.glowing-circle-main2 {
+  position: absolute;
+  bottom:0px;
+  left:90px;
+  pointer-events:none;
+  transition:0.2s;
+}
+.glowing-circle-main3 {
+  position: absolute;
+  bottom:0px;
+  left:160px;
+  pointer-events:none;
+  transition:0.2s;
+}
+.fb-logo {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+}
+.twitter-logo {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+}
+.insta-logo {
+  width:15px;
+  height:15px;
+  border-radius:50%;
+}
+.div-circle-main {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px rgb(0, 4, 255),            /* outer white */
+    -10px 0 80px rgb(0, 4, 255),        /* outer left magenta */
+    10px 0 80px rgb(0, 4, 255);         /* outer right cyan */
+}
+.div-circle-main2 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px  #00acee,            /* outer white */
+    -10px 0 80px rgb(0, 4, 255),        /* outer left magenta */
+    10px 0 80px rgb(0, 4, 255);         /* outer right cyan */
+}
+.div-circle-main3 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #e64d1f,            /* outer white */
+    -10px 0 80px #e6a01f,        /* outer left magenta */
+    10px 0 80px rgb(183, 0, 255);         /* outer right cyan */
+}
+.glowing-circle-main4 {
+  position: absolute;
+  top:40px;
+  left:90px;
+  cursor: pointer;
+}
+
+.music-logo {
+  width:20px;
+  height:20px;
+  border-radius:50%;
+}
+
+.div-circle-main4 {
+display:flex;
+justify-content:center;
+align-items:center;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow:
+  inset 0 0 50px #fff,      /* inner white */
+  inset 20px 0 80px #f0f,   /* inner left magenta short */
+  inset -20px 0 80px #0ff,  /* inner right cyan short */
+  inset 20px 0 300px #f0f,  /* inner left magenta broad */
+  inset -20px 0 300px #0ff, /* inner right cyan broad */
+  0 0 50px rgb(238, 92, 92),            /* outer white */
+  -10px 0 80px #89ff00,        /* outer left magenta */
+  10px 0 80px #89ff00;         /* outer right cyan */
+}
+.click-arrow {
+  position: absolute;
+  color:white;
+  font-size:10px;
+  font-family:Roboto;
+  top:50px;
+  left:50px;
+}
+
+
+//background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+//background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+
